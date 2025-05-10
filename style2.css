@@ -151,6 +151,75 @@ svg{
 
 }
 
+/* Media Query for Phones */
+@media (max-width: 768px) {
+  .name {
+    font-size: 40px;
+    padding-top: 0.5rem;
+  }
+
+  .namepara {
+    font-size: 18px;
+    margin: 10px 20px;
+    letter-spacing: 2px;
+  }
+
+  .microscopediv > img {
+    width: 300px;
+    height: auto;
+    margin: 40px auto;
+  }
+
+  .right-note {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .profile > img {
+    width: 150px;
+  }
+
+  .profile > h2 {
+    font-size: 28px;
+  }
+
+  .profile > p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .video {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .social-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .social-links > a > img {
+    width: 40px;
+  }
+
+  .ship > img {
+    display: none;
+  }
+
+  .footer-section {
+    padding: 30px 10px;
+  }
+
+  .title > img {
+    display: none;
+  }
+
+  .topcontainer > img {
+    display: none;
+  }
+}
 
 
 
